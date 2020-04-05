@@ -1,0 +1,200 @@
+<style type="text/css">
+	.header {
+		width: available;
+		height: 200px;
+		background-color: #ff000;
+		padding: 0px 5px 0px 5px;
+		//border-collapse: collapse;
+	}
+	
+	#header-image {
+		width: 100%;
+		height: 150px;
+		margin-top: 5px;
+		margin-bottom:10px;
+		border-collapse: collapse
+	}
+		
+	.container {
+		height: 100%;
+		width: available;
+		margin-bottom: 10px;
+		position: relative;
+	}
+	.nav {
+		width: 15%;
+		height: auto;
+		float: left;
+		//background-color: brown;
+		border-collapse: collapse;
+	}
+	
+	.main {
+		width: 65%;
+		height: auto;
+		float: left;
+		position: static:
+		//background-color: royalblue;
+		//border-collapse: collapse;
+		margin-bottom: 10px;
+	}
+	
+	.aside {
+		width: 20%;
+		height: auto;
+		float: right;
+		position: relative;
+		//background-color: yellow;
+		border-collapse: collapse;
+		display: block
+	}
+	
+	.aside_box {
+		padding-left: 15px;
+	}
+	
+	.footer {
+		clear: both;
+		position: relative;
+		bottom: 0;
+		width: 100%;
+		height: 2.5rem; 
+	}
+	
+	.context {
+		position: static;
+		padding-left: 15px;
+		padding: 0px 5px 0px 5px;
+	}
+	
+	.context video {
+		width: 500px;
+		margin-left: 10px;
+		border: none;
+		border-radius: 3px;
+	}
+	
+	a:link {
+	  color: blue;
+	  background-color: transparent;
+	  text-decoration: none;
+	}
+
+	a:visited {
+	  color: pink;
+	  background-color: transparent;
+	  text-decoration: none;
+	}
+
+	a:hover {
+	  color: red;
+	  background-color: transparent;
+	  text-decoration: underline;
+	}
+
+	a:active {
+	  color: yellow;
+	  background-color: transparent;
+	  text-decoration: underline;
+	}
+	
+	#footer {
+		padding-top: 20px;
+		text-align: center;
+	}
+
+	.nav a {
+	  background-color: #27A7D5; /* Grey background color */
+	  color: black; /* Black text color */
+	  display: block; /* Make the links appear below each other */
+	  padding: 12px; /* Add some padding */
+	  text-decoration: none; /* Remove underline from links */
+	}
+	
+	.aside a {
+		color: #27A7D5;
+	}
+	
+	.aside #aside_heading{
+		color: #FF8500;
+		font-style: italic;
+	}
+	
+	.context {
+		margin-left: 20px;
+	}
+	
+	.context h1 {
+		padding-left: 10px;
+	}
+	
+	.context form {
+		padding-top: 10px;
+	}
+	
+	.context label {
+		display: block;
+		padding: 5px 0px 15px 0px;
+	}
+	
+	.context label span {
+		float: left;
+		width: 100px;
+		size: 10;
+		font-weight: bold;
+		padding-top: 5px;
+		padding-right: 5px;
+		padding-left: 15px;
+	}
+	
+	.input-field {
+		box-sizing: border-box;
+		border: 1px solid #C2C2C2;
+		border-radius: 3px;
+		box-shadow: 1px 1px 4px #EBEBEB;	
+		padding: 7px;
+		outline: none;
+	}
+	
+	.context input[type=submit] {
+		border: none;
+		padding: 10px 15px 8px 15px;
+		background: #FF8500;
+		color: #fff;
+		float: left;
+		width: 100px;
+		size: 10;
+		font-weight: bold;
+	}
+	
+	.context span {
+		font-weight: bold;
+		color: blue;
+	}
+	
+	.columna {
+		float: left;
+		width: 47%;
+		padding: 10px;
+	}
+	
+	.columnb {
+		float: left;
+		width: 47%;
+		padding: 10px;
+	}
+	
+	.column img {
+		width:100%;
+		margin-top: 12px;
+	}
+
+	/* Clear floats after the columns */
+	.row:after {
+		content: "";
+		display: flex;
+		flex-wrap: wrap;
+		clear: both;
+	}
+	
+</style
